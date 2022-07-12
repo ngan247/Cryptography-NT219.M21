@@ -1,0 +1,44 @@
+1. Check your setups;
+2. Introduce Cryptopp;
+https://www.cryptopp.com/
+3. Input, output in cryptopp
+ in:
+	https://www.cryptopp.com/wiki/Source
+ out:
+	https://www.cryptopp.com/wiki/Sink
+ 3.1 String
+  in: StringSource;
+	https://www.cryptopp.com/wiki/StringSource
+  out: StringSink;
+	https://cryptopp.com/docs/ref/class_string_sink_template.html
+  Convert string:
+  wstring, Hex, Base 64,...
+  Vietname supports
+  
+ 3.2 Array
+ in: ArraySource (byte arrays)
+	https://www.cryptopp.com/wiki/ArraySource
+ out:  ArraySink (byte arrays)
+	https://www.cryptopp.com/wiki/ArraySink
+ 3.3 File
+  in: FileSource
+ 	https://www.cryptopp.com/wiki/FileSource
+  out: FileSink
+	https://www.cryptopp.com/wiki/FileSink
+
+3. Work with large numbers
+ - Integer class
+	https://www.cryptopp.com/wiki/Integer;
+ - ModularArithmetic
+	https://cryptopp.com/docs/ref/class_modular_arithmetic.html
+ - nbtheory class
+	nbtheory.h
+ - convert string <-> integer 
+
+5. DES, AES
+ECB, CBC, OFB, CFB, CTR, CBC_CTS (mở rộng)
+- XTS, CCM, GCM (xts.h,...)
+
+key, iv, nonce generation
+5. Block cipher mode of operation
+https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation
