@@ -1,0 +1,6 @@
+- tạo cert 
+openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout privatekey.pem -out certificate.crt
+- tạo file pem từ cert đã tạo
+openssl x509  -in certificate.crt -out cert.pem
+- tạo file der từ cert đã tạo
+openssl x509  -in certificate.crt -out cert.der

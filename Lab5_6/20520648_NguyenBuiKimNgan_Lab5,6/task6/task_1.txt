@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int ia[50], i, in, isum = 0;
+printf("Nhap vao gia tri n: ");
+scanf("%d", &in);
+}
